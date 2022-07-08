@@ -1,0 +1,52 @@
+.add-card-container {
+  width: 90%;
+  position: fixed;
+  bottom: 5%;
+  height: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .add-card-form {
+    height: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+  input {
+    width: 50%;
+    height: 50%;
+    background-color: #EDF1F7;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+  }
+
+  button {
+    height: 40px;
+    width: 200px;
+    background-color: #5bc8af;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+  }
+
+  select {
+    height: 40px;
+    border: 1px solid lightgrey;
+  }
+
+  button,
+  select,
+  input {
+    margin: 0px 5px;
+  }
+
